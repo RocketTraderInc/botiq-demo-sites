@@ -1,47 +1,114 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
-<title>Summit Ridge Dental | Emergency &amp; family dentistry in Pigeon Forge, Tennessee</title>
-<meta name="description" content="Dental care for locals and visitors to the Smokies. A toothache shouldn&#x27;t ruin your vacation. Summit Ridge Dental sees visitors and local families, with same-day emergency visits whenever our ">
+<title>Summit Ridge Dental | Emergency Dentist in Pigeon Forge, TN · Same-Day Visits</title>
+<meta name="description" content="Toothache on vacation? Summit Ridge Dental in Pigeon Forge sees visitors and locals for same-day emergency visits. Crowns made in-house. Most PPO insurance accepted.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#eef6f8;--ink:#1e4d6b;--accent:#3fa7a0;--soft:#ffffff;--alt:#f2a541}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 'Nunito Sans',sans-serif}
-.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
-header{padding:22px 0;border-bottom:1px solid color-mix(in srgb,var(--ink) 15%,transparent)}
-header .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
-.logo{font:600 26px 'Nunito Sans',serif;letter-spacing:.02em}.logo span{color:var(--accent)}
-nav a{color:var(--ink);text-decoration:none;margin-left:18px;font-size:15px}
-.hero{padding:84px 0 64px;background:linear-gradient(135deg,var(--soft),var(--bg))}
-.kicker{text-transform:uppercase;letter-spacing:.18em;font-size:13px;color:var(--accent);font-weight:700}
-h1{font:600 clamp(40px,6vw,64px)/1.08 'Nunito Sans',serif;margin:12px 0 18px}
-.hero p{max-width:680px;font-size:19px}
-.btn{display:inline-block;margin-top:18px;background:var(--ink);color:var(--bg);padding:14px 24px;border-radius:4px;text-decoration:none;font-weight:700}
-section{padding:56px 0;border-top:1px solid color-mix(in srgb,var(--ink) 10%,transparent)}
-h2{font:600 34px 'Nunito Sans',serif;margin:0 0 22px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
-.item{background:var(--soft);padding:22px;border-radius:8px;border-top:3px solid var(--accent)}
-.item h3{margin:0 0 8px;font-size:19px}.item p{margin:0}.lead{grid-column:1/-1;font-size:19px;max-width:760px;margin:0}
-.menu{background:var(--ink);color:var(--bg);border-radius:10px;padding:30px}.menu h2{color:var(--bg)}
-.menu li{padding:6px 0;border-bottom:1px solid color-mix(in srgb,var(--bg) 20%,transparent)}.menu ul{list-style:none;padding:0}
-.contact p{margin:4px 0}footer{padding:30px 0 50px;font-size:13px;opacity:.75}
-.fict{margin-top:10px;padding:10px 12px;border:1px dashed currentColor;border-radius:6px}
-.hero-img{display:block;width:100%;max-height:460px;object-fit:cover;border-radius:10px;margin-top:32px}.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}.gallery img{width:100%;height:auto;border-radius:8px;display:block}
-</style></head>
+:root{--teal:#0e9488;--teal-dk:#0b6f66;--sky:#e8f7f5;--ink:#122b32;--orange:#ff7a3d;--gray:#5f7378;--white:#ffffff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--white);color:var(--ink);font:400 17px/1.6 'Inter',sans-serif}
+a{color:var(--teal-dk)}
+.alert{background:var(--orange);color:#fff;text-align:center;padding:10px 16px;font:600 15px 'Poppins',sans-serif}
+.alert a{color:#fff}
+header{display:flex;justify-content:space-between;align-items:center;padding:16px 5vw;border-bottom:1px solid #e4ecee;flex-wrap:wrap;gap:10px}
+.logo{font:800 22px 'Poppins',sans-serif;color:var(--teal-dk)}
+.logo span{color:var(--orange)}
+.call{background:var(--teal);color:#fff;text-decoration:none;padding:12px 20px;border-radius:10px;font:600 15px 'Poppins',sans-serif}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center;padding:56px 5vw;background:var(--sky)}
+h1{font:800 clamp(36px,5vw,58px)/1.08 'Poppins',sans-serif;margin:0 0 16px}
+h1 em{font-style:normal;color:var(--teal)}
+.hero img{width:100%;border-radius:20px;display:block;box-shadow:0 18px 40px rgba(14,148,136,.18)}
+.checks{list-style:none;padding:0;margin:20px 0}
+.checks li{padding-left:30px;position:relative;margin:8px 0;font-weight:600}
+.checks li::before{content:"✓";position:absolute;left:0;color:var(--teal);font-weight:800}
+h2{font:800 clamp(28px,3.5vw,40px)/1.15 'Poppins',sans-serif;margin:0 0 10px}
+.sec{padding:64px 5vw;max-width:1200px;margin:0 auto}
+.sub{color:var(--gray);max-width:680px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:28px}
+.card{border:2px solid #dcebeb;border-radius:16px;padding:22px}
+.card .ic{width:44px;height:44px;border-radius:12px;background:var(--sky);color:var(--teal);display:flex;align-items:center;justify-content:center;font:800 22px 'Poppins',sans-serif;margin-bottom:12px}
+.card h3{font:600 18px 'Poppins',sans-serif;margin:0 0 6px}
+.card p{margin:0;color:var(--gray);font-size:15px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:28px}
+.two img{width:100%;border-radius:16px;display:block;aspect-ratio:16/9;object-fit:cover}
+.prices{background:var(--ink);color:#fff;border-radius:20px;padding:36px;margin-top:10px}
+.prices table{width:100%;border-collapse:collapse;font-size:17px}
+.prices td{padding:12px 0;border-bottom:1px solid rgba(255,255,255,.15)}
+.prices td:last-child{text-align:right;font:600 18px 'Poppins',sans-serif;color:#7ee0d6}
+details{border:2px solid #dcebeb;border-radius:14px;padding:16px 20px;margin:12px 0}
+summary{cursor:pointer;font:600 17px 'Poppins',sans-serif}
+.hours{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.box{background:var(--sky);border-radius:18px;padding:28px}
+footer{padding:30px 5vw 50px;font-size:13px;color:var(--gray);border-top:1px solid #e4ecee}
+@media(max-width:860px){.hero,.two,.hours{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}}
+</style>
+</head>
 <body>
-<header><div class="wrap"><div class="logo">Summit Ridge Dental</div>
-<nav><a href="#services">Services</a><a href="#pricing">Visitor Emergency Visits</a><a href="#contact">Contact</a></nav></div></header>
-<div class="hero"><div class="wrap"><div class="kicker">Emergency &amp; family dentistry · Pigeon Forge, Tennessee</div><h1>Dental care for locals and visitors to the Smokies.</h1>
-<p>A toothache shouldn&#x27;t ruin your vacation. Summit Ridge Dental sees visitors and local families, with same-day emergency visits whenever our schedule allows. Our friendly team uses modern digital equipment, and we make crowns in-house, often the same day.</p><a class="btn" href="#contact">Call (865) 555-0128</a>
-<img class="hero-img" src="images/hero-mountain-clinic.jpg" alt="Summit Ridge Dental's mountain-lodge style office in Pigeon Forge, Tennessee, with stone pillars, a timber entry porch and an Emergency Dental Care, Travelers Welcome sign, set against autumn hills" width="1200" height="675"></div></div>
-<main class="wrap" id="services">
-<section><h2>Emergency care for travelers</h2><div class="grid"><div class="item"><h3>Same-day emergency visits</h3><p>Toothaches, broken or chipped teeth, lost fillings or crowns, and swelling. Call and we&#x27;ll fit you in as soon as we can.</p></div><div class="item"><h3>Out-of-town patients welcome</h3><p>We send records and X-rays to your home dentist so your care continues after your trip.</p></div></div></section><section><h2>Services</h2><div class="grid"><div class="item"><h3>Same-day crowns made in-house</h3><p>Digital scans and an in-office milling unit mean many crowns are designed, made and placed in one visit.</p></div><div class="item"><h3>Modern digital equipment</h3><p>Digital X-rays, 3D imaging and intraoral cameras let you see what we see.</p></div><div class="item"><h3>Family dentistry</h3><p>Cleanings, exams, fillings and preventive care for all ages.</p></div></div></section><section><h2>Insurance</h2><div class="grid"><p class="lead">We accept most major PPO dental insurance plans and file claims for you. Uninsured visitors receive clear pricing before treatment.</p></div></section><section><h2>About Dr. Brooks</h2><div class="grid"><p class="lead">Dr. Daniel Brooks is a general dentist who grew up in East Tennessee. He opened Summit Ridge Dental to serve both his neighbors and the visitors who come to enjoy the mountains.</p></div></section>
-<section id="gallery"><h2>Our practice</h2><div class="gallery"><img src="images/treatment-room.jpg" alt="Smiling dentist in dark scrubs and dental loupes chatting with a relaxed patient in the treatment chair, autumn mountains through the window" loading="lazy" width="900" height="507"><img src="images/team.jpg" alt="The Summit Ridge Dental team of six smiling together outdoors with the Smoky Mountains behind them" loading="lazy" width="900" height="506"></div></section>
-<section id="pricing"><div class="menu"><h2>Visitor Emergency Visits</h2><p>Clear pricing for uninsured visitors</p><ul><li>Emergency exam + digital X-ray — $99</li><li>Temporary filling — $85</li><li>Re-cement a lost crown — $95</li><li>Same-day crown (in-house) — from $1,150</li><li>Simple extraction — from $195</li></ul><p>Most major PPO dental insurance accepted. Summit Ridge Dental · (865) 555-0128</p></div></section>
-<section id="contact" class="contact"><h2>Contact</h2>
-<p><strong>Dr. Daniel Brooks, DDS, General Dentist</strong></p><p>Phone: (865) 555-0128 · Email: care@summitridgedental.example</p>
-<p>Serving Pigeon Forge, Sevierville, Gatlinburg and visitors to the Great Smoky Mountains.</p><p>Hours: Monday–Saturday 8 AM–6 PM · Sunday 10 AM–2 PM (emergencies)</p></section>
-</main>
-<footer><div class="wrap"><p>Summit Ridge Dental · Dr. Daniel Brooks, DDS, General Dentist · (865) 555-0128</p><p class="fict">Fictional business created for BotIQ demonstrations. Not a real company; any resemblance to a real business or person is coincidental. Phone numbers use the fictional 555-01xx range.</p></div></footer>
-</body></html>
+<div class="alert">Dental emergency? Call <a href="tel:8655550128">(865) 555-0128</a>. Same-day visits for visitors and locals.</div>
+<header><div class="logo">Summit Ridge <span>Dental</span></div><a class="call" href="tel:8655550128">Call (865) 555-0128</a></header>
+
+<section class="hero">
+  <div>
+    <h1>Toothache on vacation? <em>We've got you.</em></h1>
+    <p>Cracked a tooth on peanut brittle? Lost a crown halfway up a mountain trail? It happens more than you'd think around here. Call us, and we'll get you seen fast, often the same day, so you can get back to your trip.</p>
+    <ul class="checks"><li>Same-day emergency visits</li><li>Crowns made right here, often in one visit</li><li>Most PPO insurance accepted</li><li>Records sent to your home dentist</li></ul>
+    <a class="call" href="tel:8655550128">Call now: (865) 555-0128</a>
+  </div>
+  <img src="images/hero-mountain-clinic.jpg" alt="Summit Ridge Dental's mountain-lodge style office in Pigeon Forge, Tennessee, with stone pillars, a timber entry porch and an Emergency Dental Care, Travelers Welcome sign, set against autumn hills">
+</section>
+
+<section class="sec">
+  <h2>What we can help with today</h2>
+  <p class="sub">Not sure if it's an emergency? Call anyway. A real person will tell you what to do next.</p>
+  <div class="grid">
+    <div class="card"><div class="ic">!</div><h3>Toothache</h3><p>Throbbing, sharp or won't quit. We find the cause and get you comfortable.</p></div>
+    <div class="card"><div class="ic">⚡</div><h3>Broken or chipped tooth</h3><p>From a hard candy or a fall on the trail. Bring any pieces you find.</p></div>
+    <div class="card"><div class="ic">◎</div><h3>Lost filling or crown</h3><p>We can often re-cement a crown or place a temporary filling while you wait.</p></div>
+    <div class="card"><div class="ic">+</div><h3>Swelling</h3><p>Swelling can be serious. Call right away, and if it affects breathing or swallowing, go to the ER.</p></div>
+  </div>
+</section>
+
+<section class="sec" style="padding-top:0">
+  <h2>Modern care, mountain friendly</h2>
+  <p class="sub">Digital X-rays, 3D imaging and an in-office crown mill mean fewer visits and less waiting. Our team grew up in East Tennessee, and we treat visitors like neighbors.</p>
+  <div class="two"><img src="images/treatment-room.jpg" alt="Smiling dentist in dark scrubs and dental loupes chatting with a relaxed patient in the treatment chair, autumn mountains through the window" loading="lazy"><img src="images/team.jpg" alt="The Summit Ridge Dental team of six smiling together outdoors with the Smoky Mountains behind them" loading="lazy"></div>
+</section>
+
+<section class="sec">
+  <div class="prices">
+    <h2 style="color:#fff">Visitor emergency pricing</h2>
+    <p style="color:#c9dcdf">No insurance? No surprises. You'll know the price before we start.</p>
+    <table>
+      <tr><td>Emergency exam + digital X-ray</td><td>$99</td></tr>
+      <tr><td>Temporary filling</td><td>$85</td></tr>
+      <tr><td>Re-cement a lost crown</td><td>$95</td></tr>
+      <tr><td>Same-day crown, made in-house</td><td>from $1,150</td></tr>
+      <tr><td>Simple extraction</td><td>from $195</td></tr>
+    </table>
+  </div>
+</section>
+
+<section class="sec">
+  <h2>Quick answers</h2>
+  <details><summary>Do you take my insurance?</summary><p>We accept most major PPO dental plans and file the claim for you. Call with your card handy and we'll check.</p></details>
+  <details><summary>I'm only in town for a few days. Can you still help?</summary><p>Yes. Most of our emergency patients are visitors. We'll treat what's urgent and send your records and X-rays to your dentist back home.</p></details>
+  <details><summary>Can you really make a crown in one day?</summary><p>Often, yes. We scan your tooth digitally and mill the crown right here in the office. Some cases need a second visit, and we'll tell you up front.</p></details>
+  <details><summary>Do you see kids?</summary><p>Absolutely. We're a family practice, and little ones on vacation get toothaches too.</p></details>
+</section>
+
+<section class="sec hours">
+  <div class="box"><h2>Hours</h2><p>Monday–Saturday: 8 AM–6 PM<br>Sunday: 10 AM–2 PM (emergencies)</p></div>
+  <div class="box"><h2>Find us</h2><p>Pigeon Forge, Tennessee. Serving Pigeon Forge, Sevierville, Gatlinburg and visitors to the Great Smoky Mountains.</p><p>care@summitridgedental.example</p></div>
+</section>
+
+<footer>
+  <p>Summit Ridge Dental · Dr. Daniel Brooks, DDS, General Dentist · (865) 555-0128</p>
+  <p>Fictional business created for BotIQ demonstrations. Not a real company; any resemblance to a real business or person is coincidental. Phone numbers use the fictional 555-01xx range.</p>
+</footer>
+</body>
+</html>

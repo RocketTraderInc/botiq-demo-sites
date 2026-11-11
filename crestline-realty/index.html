@@ -1,47 +1,113 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
-<title>Crestline Realty | Luxury real estate in Franklin &amp; Brentwood, Tennessee</title>
-<meta name="description" content="Modern homes. Middle Tennessee land. Crestline Realty helps buyers and sellers with newly built and recently built luxury homes on one-acre-plus lots across Franklin and Brentwo">
+<title>Crestline Realty | Luxury Homes on Acreage in Franklin &amp; Brentwood, TN</title>
+<meta name="description" content="Quietly exceptional homes. Crestline Realty represents buyers and sellers of new luxury homes on one-acre-plus lots in Franklin and Brentwood, Tennessee.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f7f5f0;--ink:#1f2a2e;--accent:#b8925a;--soft:#e9e4da;--alt:#8a9a8c}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 'Inter',sans-serif}
-.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
-header{padding:22px 0;border-bottom:1px solid color-mix(in srgb,var(--ink) 15%,transparent)}
-header .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
-.logo{font:600 26px 'Cormorant Garamond',serif;letter-spacing:.02em}.logo span{color:var(--accent)}
-nav a{color:var(--ink);text-decoration:none;margin-left:18px;font-size:15px}
-.hero{padding:84px 0 64px;background:linear-gradient(135deg,var(--soft),var(--bg))}
-.kicker{text-transform:uppercase;letter-spacing:.18em;font-size:13px;color:var(--accent);font-weight:700}
-h1{font:600 clamp(40px,6vw,64px)/1.08 'Cormorant Garamond',serif;margin:12px 0 18px}
-.hero p{max-width:680px;font-size:19px}
-.btn{display:inline-block;margin-top:18px;background:var(--ink);color:var(--bg);padding:14px 24px;border-radius:4px;text-decoration:none;font-weight:700}
-section{padding:56px 0;border-top:1px solid color-mix(in srgb,var(--ink) 10%,transparent)}
-h2{font:600 34px 'Cormorant Garamond',serif;margin:0 0 22px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
-.item{background:var(--soft);padding:22px;border-radius:8px;border-top:3px solid var(--accent)}
-.item h3{margin:0 0 8px;font-size:19px}.item p{margin:0}.lead{grid-column:1/-1;font-size:19px;max-width:760px;margin:0}
-.menu{background:var(--ink);color:var(--bg);border-radius:10px;padding:30px}.menu h2{color:var(--bg)}
-.menu li{padding:6px 0;border-bottom:1px solid color-mix(in srgb,var(--bg) 20%,transparent)}.menu ul{list-style:none;padding:0}
-.contact p{margin:4px 0}footer{padding:30px 0 50px;font-size:13px;opacity:.75}
-.fict{margin-top:10px;padding:10px 12px;border:1px dashed currentColor;border-radius:6px}
-.hero-img{display:block;width:100%;max-height:460px;object-fit:cover;border-radius:10px;margin-top:32px}.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}.gallery img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:8px;display:block}
-</style></head>
+:root{--black:#0f0f0e;--panel:#191917;--ivory:#efe9dd;--muted:#a8a294;--champagne:#c8a96a;--line:#2e2c28}
+*{box-sizing:border-box}
+body{margin:0;background:var(--black);color:var(--ivory);font:300 17px/1.75 'Jost',sans-serif;letter-spacing:.01em}
+a{color:inherit}
+header{position:absolute;top:0;left:0;right:0;z-index:2;display:flex;justify-content:space-between;align-items:center;padding:28px 6vw}
+.mark{font:500 22px 'Cormorant Garamond',serif;letter-spacing:.32em;text-transform:uppercase}
+nav a{text-decoration:none;font-size:13px;letter-spacing:.22em;text-transform:uppercase;margin-left:28px;color:var(--muted)}
+.hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;padding:0 6vw 9vh}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.55)}
+.hero .txt{position:relative;max-width:760px}
+.eyebrow{font-size:12px;letter-spacing:.34em;text-transform:uppercase;color:var(--champagne)}
+h1{font:400 clamp(44px,7vw,92px)/1.02 'Cormorant Garamond',serif;margin:18px 0 22px}
+h2{font:400 clamp(34px,4.5vw,54px)/1.1 'Cormorant Garamond',serif;margin:0 0 26px}
+.wrap{padding:110px 6vw;max-width:1280px;margin:0 auto}
+.lede{font:italic 400 clamp(24px,2.6vw,32px)/1.5 'Cormorant Garamond',serif;max-width:900px;color:var(--ivory)}
+.rule{width:64px;height:1px;background:var(--champagne);margin:0 0 34px}
+.featured{display:grid;grid-template-columns:1.2fr 1fr;gap:0;background:var(--panel)}
+.featured img{width:100%;height:100%;min-height:440px;object-fit:cover;display:block}
+.featured .copy{padding:64px 56px}
+.stats{display:flex;flex-wrap:wrap;gap:0;margin:28px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.stats div{padding:16px 22px 16px 0;margin-right:22px;font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.stats b{display:block;font:400 30px 'Cormorant Garamond',serif;letter-spacing:0;color:var(--ivory);text-transform:none}
+.price{font:400 26px 'Cormorant Garamond',serif;color:var(--champagne)}
+ol.services{list-style:none;padding:0;margin:0;counter-reset:s}
+ol.services li{counter-increment:s;display:grid;grid-template-columns:90px 1fr;padding:30px 0;border-top:1px solid var(--line)}
+ol.services li::before{content:"0" counter(s);font:400 34px 'Cormorant Garamond',serif;color:var(--champagne)}
+ol.services h3{font:500 15px 'Jost',sans-serif;letter-spacing:.24em;text-transform:uppercase;margin:6px 0 8px}
+ol.services p{margin:0;color:var(--muted);max-width:720px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.split img{width:100%;display:block}
+blockquote{margin:0;font:italic 400 30px/1.45 'Cormorant Garamond',serif}
+.contact{text-align:center;border-top:1px solid var(--line)}
+.contact .phone{font:400 44px 'Cormorant Garamond',serif;color:var(--champagne);text-decoration:none}
+footer{padding:40px 6vw 60px;font-size:12px;color:var(--muted);border-top:1px solid var(--line)}
+.fict{margin-top:12px;opacity:.8}
+@media(max-width:820px){.featured,.split{grid-template-columns:1fr}.featured .copy{padding:40px 26px}nav{display:none}.wrap{padding:72px 6vw}}
+</style>
+</head>
 <body>
-<header><div class="wrap"><div class="logo">Crestline Realty</div>
-<nav><a href="#services">Services</a><a href="#pricing">Seller Marketing Package</a><a href="#contact">Contact</a></nav></div></header>
-<div class="hero"><div class="wrap"><div class="kicker">Luxury real estate · Franklin &amp; Brentwood, Tennessee</div><h1>Modern homes. Middle Tennessee land.</h1>
-<p>Crestline Realty helps buyers and sellers with newly built and recently built luxury homes on one-acre-plus lots across Franklin and Brentwood. We specialize in 2023-and-newer designs: modern farmhouse, transitional and contemporary homes set on the rolling land that makes Middle Tennessee special.</p><a class="btn" href="#contact">Call (615) 555-0142</a>
-<img class="hero-img" src="images/hero-farmhouse-estate.jpg" alt="Stone-and-white modern farmhouse with a metal roof and a curved gravel drive, set among rolling green Middle Tennessee hills" width="1200" height="1200"></div></div>
-<main class="wrap" id="services">
-<section><h2>Services</h2><div class="grid"><div class="item"><h3>Seller representation</h3><p>Pricing strategy, professional photography, twilight and drone video, staging consultation, and a marketing plan built for luxury buyers.</p></div><div class="item"><h3>Buyer representation</h3><p>Private showings, new-construction walkthroughs, builder negotiations, inspections and closing coordination.</p></div><div class="item"><h3>New construction on acreage</h3><p>Homes built 2023 and later on lots of one acre or more, from Leiper&#x27;s Fork edges to Brentwood estates.</p></div><div class="item"><h3>Relocation to Williamson County</h3><p>Neighborhood tours, school-district information from official sources, and a moving timeline that fits your family&#x27;s schedule.</p></div></div></section><section><h2>Why clients choose Claire</h2><div class="grid"><div class="item"><h3>Local and responsive</h3><p>Claire lives in Franklin and answers calls and texts the same day.</p></div><div class="item"><h3>Design-minded</h3><p>She knows modern construction: materials, layouts, energy features and the builders behind them.</p></div><div class="item"><h3>Marketing that shows the land</h3><p>Every listing gets aerial video so buyers see the lot, the views and the light.</p></div></div></section><section><h2>About Claire Whitfield</h2><div class="grid"><p class="lead">Claire Whitfield founded Crestline Realty after a decade in residential design. She pairs a designer&#x27;s eye with careful negotiation, and she believes a great home sale starts with telling the story of the house and the land around it.</p></div></section><section><h2>Our values</h2><div class="grid"><p class="lead">Honesty in pricing. Clear communication. Respect for every client&#x27;s time. Equal treatment for every buyer and seller.</p></div></section>
-<section id="gallery"><h2>Our homes</h2><div class="gallery"><img src="images/kitchen.jpg" alt="Bright farmhouse kitchen with white cabinets, a large wood island, a farmhouse sink and brass lantern pendants" loading="lazy" width="900" height="900"><img src="images/living-room.jpg" alt="Rustic luxury living room with exposed wood beams, a stone fireplace, leather sofas and tall windows onto autumn hills" loading="lazy" width="900" height="900"></div></section>
-<section id="pricing"><div class="menu"><h2>Seller Marketing Package</h2><p>Every Crestline listing includes</p><ul><li>Professional photography (interior + exterior)</li><li>Twilight photo set</li><li>Drone video of home and acreage</li><li>Staging consultation</li><li>Luxury print brochure</li><li>Private broker preview</li><li>Weekly seller report</li></ul><p>Commissions are negotiable. Crestline Realty, LLC · (615) 555-0142 · Equal Housing Opportunity</p></div></section>
-<section id="contact" class="contact"><h2>Contact</h2>
-<p><strong>Claire Whitfield, REALTOR®</strong></p><p>Phone: (615) 555-0142 · Email: claire@crestline-realty.example</p>
-<p>Serving Franklin, Brentwood and greater Williamson County, Tennessee.</p><p>Hours: Monday–Saturday 8 AM–7 PM · Sunday by appointment</p></section>
-</main>
-<footer><div class="wrap"><p>Crestline Realty, LLC · Brokerage phone (615) 555-0142 · Equal Housing Opportunity. Commissions are negotiable.</p><p class="fict">Fictional business created for BotIQ demonstrations. Not a real company; any resemblance to a real business or person is coincidental. Phone numbers use the fictional 555-01xx range.</p></div></footer>
-</body></html>
+<header><div class="mark">Crestline</div><nav><a href="#residence">Residence</a><a href="#services">Services</a><a href="#claire">Claire</a><a href="#contact">Contact</a></nav></header>
+
+<section class="hero">
+  <img src="images/hero-farmhouse-estate.jpg" alt="Stone-and-white modern farmhouse with a metal roof and a curved gravel drive, set among rolling green Middle Tennessee hills">
+  <div class="txt">
+    <div class="eyebrow">Franklin · Brentwood · Williamson County</div>
+    <h1>Quietly exceptional homes.</h1>
+    <p>New luxury residences on an acre or more of Middle Tennessee land. Represented with discretion by Claire Whitfield.</p>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="rule"></div>
+  <p class="lede">Morning light across three acres of pasture. A kitchen built for long Sunday dinners. A home designed in 2024, on land that has been here far longer. This is the work we love.</p>
+</div>
+
+<section id="residence" class="featured">
+  <img src="images/kitchen.jpg" alt="Bright farmhouse kitchen with white cabinets, a large wood island, a farmhouse sink and brass lantern pendants" loading="lazy">
+  <div class="copy">
+    <div class="eyebrow">Featured residence</div>
+    <h2>The Hollow Oak Residence</h2>
+    <p>A modern farmhouse completed in 2024, set back from a quiet lane west of Franklin. White oak floors, a limestone hearth and a chef's kitchen open onto a covered terrace and a view of rolling hills.</p>
+    <div class="stats"><div><b>5</b>Bedrooms</div><div><b>4.5</b>Baths</div><div><b>5,480</b>Sq. ft.</div><div><b>3.2</b>Acres</div></div>
+    <p class="price">Offered at $2,875,000</p>
+    <p style="color:var(--muted);font-size:14px">Private showings by appointment.</p>
+  </div>
+</section>
+
+<section id="services" class="wrap">
+  <div class="eyebrow">How we work</div>
+  <h2>Representation, refined.</h2>
+  <ol class="services">
+    <li><div><h3>Selling your home</h3><p>Pricing grounded in recent sales, architectural photography, twilight images, drone film of the land, and a private preview for the area's top buyer agents before the home goes public.</p></div></li>
+    <li><div><h3>Buying a home</h3><p>Private tours, quiet access to homes before they are listed, and careful negotiation on new construction, from builder contracts to final walkthrough.</p></div></li>
+    <li><div><h3>New construction on acreage</h3><p>Homes built 2023 and later on lots of one acre or more. Claire knows the builders, the materials and the questions worth asking.</p></div></li>
+    <li><div><h3>Relocation</h3><p>Neighborhood tours, a clear timeline, and a calm guide to buying in Williamson County from out of state.</p></div></li>
+  </ol>
+</section>
+
+<section id="claire" class="wrap split">
+  <img src="images/living-room.jpg" alt="Rustic luxury living room with exposed wood beams, a stone fireplace, leather sofas and tall windows onto autumn hills" loading="lazy">
+  <div>
+    <div class="eyebrow">About Claire Whitfield, REALTOR®</div>
+    <h2>A designer's eye. A negotiator's patience.</h2>
+    <p>Claire spent ten years in residential design before founding Crestline Realty. She reads a floor plan the way others read a menu, and she believes a great sale begins with telling the story of the house and the land it stands on.</p>
+    <blockquote>“The right home doesn't need to be sold loudly. It needs to be shown well.”</blockquote>
+  </div>
+</section>
+
+<section id="contact" class="wrap contact">
+  <div class="eyebrow">Begin a conversation</div>
+  <h2>Private consultations, by appointment.</h2>
+  <p><a class="phone" href="tel:6155550142">(615) 555-0142</a></p>
+  <p>claire@crestline-realty.example · Monday–Saturday, 8 AM–7 PM · Sundays by appointment</p>
+  <p style="color:var(--muted)">Serving Franklin, Brentwood and greater Williamson County, Tennessee.</p>
+</section>
+
+<footer>
+  <p>Crestline Realty, LLC · Brokerage phone (615) 555-0142 · Equal Housing Opportunity. Commissions are negotiable.</p>
+  <p class="fict">Fictional business created for BotIQ demonstrations. Not a real company; any resemblance to a real business, person or property is coincidental. Phone numbers use the fictional 555-01xx range.</p>
+</footer>
+</body>
+</html>
